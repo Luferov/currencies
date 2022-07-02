@@ -12,7 +12,6 @@ env:
 jobs:
   build_server:
     name: Build server
-    needs: [ lint ]
     runs-on: ubuntu-latest
     permissions:
       contents: read
