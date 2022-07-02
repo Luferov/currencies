@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<Valuta name="Foreign Currency Market Lib">
+  <Item ID="R01010">
+    <Name>Австралийский доллар</Name>
+    <EngName>Australian Dollar</EngName>
+    <Nominal>1</Nominal>
+    <ParentCode>R01010</ParentCode>
+  </Item>
+  <Item ID="R01015">
+    <Name>Австрийский шиллинг</Name>
+    <EngName>Austrian Shilling</EngName>
+    <Nominal>1000</Nominal>
+    <ParentCode>R01015</ParentCode>
+  </Item>
+  <Item ID="R01020A">
+    <Name>Азербайджанский манат</Name>
+    <EngName>Azerbaijan Manat</EngName>
+    <Nominal>1</Nominal>
+    <ParentCode>R01020</ParentCode>
+  </Item>
+  <Item ID="R01035">
+    <Name>Фунт стерлингов Соединенного королевства</Name>
+    <EngName>British Pound Sterling</EngName>
+    <Nominal>1</Nominal>
+    <ParentCode>R01035</ParentCode>
+  </Item>
+  <Item ID="R01040F">
+    <Name>Ангольская новая кванза</Name>
+    <EngName>Angolan new Kwanza</EngName>
+    <Nominal>100000</Nominal>
+    <ParentCode>R01040</ParentCode>
+  </Item>
+  <Item ID="R01060">
+    <Name>Армянский драм</Name>
+    <EngName>Armenia Dram</EngName>
+    <Nominal>1000</Nominal>
+    <ParentCode>R01060</ParentCode>
+  </Item>
+  <Item ID="R01090B">
+    <Name>Белорусский рубль</Name>
+    <EngName>Belarussian Ruble</EngName>
+    <Nominal>1</Nominal>
+    <ParentCode>R01090</ParentCode>
+  </Item>
+  <Item ID="R01095">
+    <Name>Бельгийский франк</Name>
+    <EngName>Belgium Franc</EngName>
+    <Nominal>1000</Nominal>
+    <ParentCode>R01095</ParentCode>
+  </Item>
+  <Item ID="R01100">
+    <Name>Болгарский лев</Name>
+    <EngName>Bulgarian lev</EngName>
+    <Nominal>1</Nominal>
+    <ParentCode>R01100</ParentCode>
+  </Item>
+  <Item ID="R01115">
+    <Name>Бразильский реал</Name>
+    <EngName>Brazil Real</EngName>
+    <Nominal>1</Nominal>
+    <ParentCode>R01115</ParentCode>
+  </Item>
+  <Item ID="R01135">
+    <Name>Венгерский форинт</Name>
+    <EngName>Hungarian Forint</EngName>
+    <Nominal>100</Nominal>
+    <ParentCode>R01135</ParentCode>
+  </Item>
+  <Item ID="R01200">
+    <Name>Гонконгский доллар</Name>
+    <EngName>Hong Kong Dollar</EngName>
+    <Nominal>10</Nominal>
+    <ParentCode>R01200</ParentCode>
+  </Item>
+  <Item ID="R01205">
+    <Name>Греческая драхма</Name>
+    <EngName>Greek Drachma</EngName>
+    <Nominal>10000</Nominal>
+    <ParentCode>R01205</ParentCode>
+  </Item>
+  <Item ID="R01215">
+    <Name>Датская крона</Name>
+    <EngName>Danish Krone</EngName>
+    <Nominal>10</Nominal>
+    <ParentCode>R01215</ParentCode>
+  </Item>
+  <Item ID="R01235">
+    <Name>Доллар США</Name>
+    <EngName>US Dollar</EngName>
+    <Nominal>1</Nominal>
+    <ParentCode>R01235</ParentCode>
+  </Item>
+  <Item ID="R01239">
+    <Name>Евро</Name>
+    <EngName>Euro</EngName>
+    <Nominal>1</Nominal>
+    <ParentCode>R01239</ParentCode>
+  </Item>
+  <Item ID="R01270">
+    <Name>Индийская рупия</Name>
+    <EngName>Indian Rupee</EngName>
+    <Nominal>100</Nominal>
+    <ParentCode>R01270</ParentCode>
+  </Item>
+  <Item ID="R01305">
+    <Name>Ирландский фунт</Name>
+    <EngName>Irish Pound</EngName>
+    <Nominal>100</Nominal>
+    <ParentCode>R01305</ParentCode>
+  </Item>
+  <Item ID="R01310">
+    <Name>Исландская крона</Name>
+    <EngName>Iceland Krona</EngName>
+    <Nominal>10000</Nominal>
+    <ParentCode>R01310</ParentCode>
+  </Item>
+  <Item ID="R01315">
+    <Name>Испанская песета</Name>
+    <EngName>Spanish Peseta</EngName>
+    <Nominal>10000</Nominal>
+    <ParentCode>R01315</ParentCode>
+  </Item>
+  <Item ID="R01325">
+    <Name>Итальянская лира</Name>
+    <EngName>Italian Lira</EngName>
+    <Nominal>100000</Nominal>
+    <ParentCode>R01325</ParentCode>
+  </Item>
+  <Item ID="R01335">
+    <Name>Казахстанский тенге</Name>
+    <EngName>Kazakhstan Tenge</EngName>
+    <Nominal>100</Nominal>
+    <ParentCode>R01335</ParentCode>
+  </Item>
+  <Item ID="R01350">
+    <Name>Канадский доллар</Name>
+    <EngName>Canadian Dollar</EngName>
+    <Nominal>1</Nominal>
+    <ParentCode>R01350</ParentCode>
+  </Item>
+  <Item ID="R01370">
+    <Name>Киргизский сом</Name>
+    <EngName>Kyrgyzstan Som</EngName>
+    <Nominal>100</Nominal>
+    <ParentCode>R01370</ParentCode>
+  </Item>
+  <Item ID="R01375">
+    <Name>Китайский юань</Name>
+    <EngName>China Yuan</EngName>
+    <Nominal>10</Nominal>
+    <ParentCode>R01375</ParentCode>
+  </Item>
+  <Item ID="R01390">
+    <Name>Кувейтский динар</Name>
+    <EngName>Kuwaiti Dinar</EngName>
+    <Nominal>10</Nominal>
+    <ParentCode>R01390</ParentCode>
+  </Item>
+  <Item ID="R01405">
+    <Name>Латвийский лат</Name>
+    <EngName>Latvian Lat</EngName>
+    <Nominal>1</Nominal>
+    <ParentCode>R01405</ParentCode>
+  </Item>
+  <Item ID="R01420">
+    <Name>Ливанский фунт</Name>
+    <EngName>Lebanese Pound</EngName>
+    <Nominal>100000</Nominal>
+    <ParentCode>R01420</ParentCode>
+  </Item>
+  <Item ID="R01435">
+    <Name>Литовский лит</Name>
+    <EngName>Lithuanian Lita</EngName>
+    <Nominal>1</Nominal>
+    <ParentCode>R01435</ParentCode>
+  </Item>
+  <Item ID="R01436">
+    <Name>Литовский талон</Name>
+    <EngName>Lithuanian talon</EngName>
+    <Nominal>1</Nominal>
+    <ParentCode>R01435</ParentCode>
+  </Item>
+  <Item ID="R01500">
+    <Name>Молдавский лей</Name>
+    <EngName>Moldova Lei</EngName>
+    <Nominal>10</Nominal>
+    <ParentCode>R01500</ParentCode>
+  </Item>
+  <Item ID="R01510">
+    <Name>Немецкая марка</Name>
+    <EngName>Deutsche Mark</EngName>
+    <Nominal>1</Nominal>
+    <ParentCode>R01510</ParentCode>
+  </Item>
+  <Item ID="R01510A">
+    <Name>Немецкая марка</Name>
+    <EngName>Deutsche Mark</EngName>
+    <Nominal>100</Nominal>
+    <ParentCode>R01510</ParentCode>
+  </Item>
+  <Item ID="R01523">
+    <Name>Нидерландский гульден</Name>
+    <EngName>Netherlands Gulden</EngName>
+    <Nominal>100</Nominal>
+    <ParentCode>R01523</ParentCode>
+  </Item>
+  <Item ID="R01535">
+    <Name>Норвежская крона</Name>
+    <EngName>Norwegian Krone</EngName>
+    <Nominal>10</Nominal>
+    <ParentCode>R01535</ParentCode>
+  </Item>
+  <Item ID="R01565">
+    <Name>Польский злотый</Name>
+    <EngName>Polish Zloty</EngName>
+    <Nominal>1</Nominal>
+    <ParentCode>R01565</ParentCode>
+  </Item>
+  <Item ID="R01570">
+    <Name>Португальский эскудо</Name>
+    <EngName>Portuguese Escudo</EngName>
+    <Nominal>10000</Nominal>
+    <ParentCode>R01570</ParentCode>
+  </Item>
+  <Item ID="R01585">
+    <Name>Румынский лей</Name>
+    <EngName>Romanian Leu</EngName>
+    <Nominal>10000</Nominal>
+    <ParentCode>R01585</ParentCode>
+  </Item>
+  <Item ID="R01585F">
+    <Name>Румынский лей</Name>
+    <EngName>Romanian Leu</EngName>
+    <Nominal>10</Nominal>
+    <ParentCode>R01585</ParentCode>
+  </Item>
+  <Item ID="R01589">
+    <Name>СДР (специальные права заимствования)</Name>
+    <EngName>SDR</EngName>
+    <Nominal>1</Nominal>
+    <ParentCode>R01589</ParentCode>
+  </Item>
+  <Item ID="R01625">
+    <Name>Сингапурский доллар</Name>
+    <EngName>Singapore Dollar</EngName>
+    <Nominal>1</Nominal>
+    <ParentCode>R01625</ParentCode>
+  </Item>
+  <Item ID="R01665A">
+    <Name>Суринамский доллар</Name>
+    <EngName>Surinam Dollar</EngName>
+    <Nominal>1</Nominal>
+    <ParentCode>R01665</ParentCode>
+  </Item>
+  <Item ID="R01670">
+    <Name>Таджикский сомони</Name>
+    <EngName>Tajikistan Ruble</EngName>
+    <Nominal>10</Nominal>
+    <ParentCode>R01670</ParentCode>
+  </Item>
+  <Item ID="R01670B">
+    <Name>Таджикский рубл</Name>
+    <EngName>Tajikistan Ruble</EngName>
+    <Nominal>10</Nominal>
+    <ParentCode>R01670</ParentCode>
+  </Item>
+  <Item ID="R01700J">
+    <Name>Турецкая лира</Name>
+    <EngName>Turkish Lira</EngName>
+    <Nominal>1</Nominal>
+    <ParentCode>R01700</ParentCode>
+  </Item>
+  <Item ID="R01710">
+    <Name>Туркменский манат</Name>
+    <EngName>Turkmenistan Manat</EngName>
+    <Nominal>10000</Nominal>
+    <ParentCode>R01710</ParentCode>
+  </Item>
+  <Item ID="R01710A">
+    <Name>Новый туркменский манат</Name>
+    <EngName>New Turkmenistan Manat</EngName>
+    <Nominal>1</Nominal>
+    <ParentCode>R01710</ParentCode>
+  </Item>
+  <Item ID="R01717">
+    <Name>Узбекский сум</Name>
+    <EngName>Uzbekistan Sum</EngName>
+    <Nominal>1000</Nominal>
+    <ParentCode>R01717</ParentCode>
+  </Item>
+  <Item ID="R01720">
+    <Name>Украинская гривна</Name>
+    <EngName>Ukrainian Hryvnia</EngName>
+    <Nominal>10</Nominal>
+    <ParentCode>R01720</ParentCode>
+  </Item>
+  <Item ID="R01720A">
+    <Name>Украинский карбованец</Name>
+    <EngName>Ukrainian Hryvnia</EngName>
+    <Nominal>1</Nominal>
+    <ParentCode>R01720</ParentCode>
+  </Item>
+  <Item ID="R01740">
+    <Name>Финляндская марка</Name>
+    <EngName>Finnish Marka</EngName>
+    <Nominal>100</Nominal>
+    <ParentCode>R01740</ParentCode>
+  </Item>
+  <Item ID="R01750">
+    <Name>Французский франк</Name>
+    <EngName>French Franc</EngName>
+    <Nominal>1000</Nominal>
+    <ParentCode>R01750</ParentCode>
+  </Item>
+  <Item ID="R01760">
+    <Name>Чешская крона</Name>
+    <EngName>Czech Koruna</EngName>
+    <Nominal>10</Nominal>
+    <ParentCode>R01760</ParentCode>
+  </Item>
+  <Item ID="R01770">
+    <Name>Шведская крона</Name>
+    <EngName>Swedish Krona</EngName>
+    <Nominal>10</Nominal>
+    <ParentCode>R01770</ParentCode>
+  </Item>
+  <Item ID="R01775">
+    <Name>Швейцарский франк</Name>
+    <EngName>Swiss Franc</EngName>
+    <Nominal>1</Nominal>
+    <ParentCode>R01775</ParentCode>
+  </Item>
+  <Item ID="R01790">
+    <Name>ЭКЮ</Name>
+    <EngName>ECU</EngName>
+    <Nominal>1</Nominal>
+    <ParentCode>R01790</ParentCode>
+  </Item>
+  <Item ID="R01795">
+    <Name>Эстонская крона</Name>
+    <EngName>Estonian Kroon</EngName>
+    <Nominal>10</Nominal>
+    <ParentCode>R01795</ParentCode>
+  </Item>
+  <Item ID="R01805">
+    <Name>Югославский новый динар</Name>
+    <EngName>Yugoslavian Dinar</EngName>
+    <Nominal>1</Nominal>
+    <ParentCode>R01804</ParentCode>
+  </Item>
+  <Item ID="R01810">
+    <Name>Южноафриканский рэнд</Name>
+    <EngName>S.African Rand</EngName>
+    <Nominal>10</Nominal>
+    <ParentCode>R01810</ParentCode>
+  </Item>
+  <Item ID="R01815">
+    <Name>Вон Республики Корея</Name>
+    <EngName>South Korean Won</EngName>
+    <Nominal>1000</Nominal>
+    <ParentCode>R01815</ParentCode>
+  </Item>
+  <Item ID="R01820">
+    <Name>Японская иена</Name>
+    <EngName>Japanese Yen</EngName>
+    <Nominal>100</Nominal>
+    <ParentCode>R01820</ParentCode>
+  </Item>
+</Valuta>

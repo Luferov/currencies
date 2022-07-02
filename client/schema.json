@@ -1,0 +1,211 @@
+{
+  "openapi": "3.0.2",
+  "info": {
+    "title": "",
+    "version": ""
+  },
+  "paths": {
+    "/coins/rates/": {
+      "get": {
+        "operationId": "listRates",
+        "description": "Вьюха для получения списка доступных валют.",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Rate"
+                  }
+                }
+              }
+            },
+            "description": ""
+          }
+        },
+        "tags": [
+          "coins"
+        ]
+      }
+    },
+    "/coins/values/": {
+      "get": {
+        "operationId": "listValues",
+        "description": "Вьюха для просмотра котировок курсов валют.",
+        "parameters": [
+          {
+            "name": "date",
+            "required": false,
+            "in": "query",
+            "description": "date",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "rate__code",
+            "required": false,
+            "in": "query",
+            "description": "rate__code",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Value"
+                  }
+                }
+              }
+            },
+            "description": ""
+          }
+        },
+        "tags": [
+          "coins"
+        ]
+      }
+    },
+    "/coins/unload/{file_type}/": {
+      "post": {
+        "operationId": "createunload_file",
+        "description": "POST запрос для выгрузки файлов.",
+        "parameters": [
+          {
+            "name": "file_type",
+            "in": "path",
+            "required": true,
+            "description": "",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {}
+            },
+            "application/x-www-form-urlencoded": {
+              "schema": {}
+            },
+            "multipart/form-data": {
+              "schema": {}
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": ""
+          }
+        },
+        "tags": [
+          "coins"
+        ]
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Rate": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "readOnly": true
+          },
+          "name": {
+            "type": "string",
+            "description": "Название",
+            "maxLength": 255
+          },
+          "nominal": {
+            "type": "integer",
+            "description": "Номинал"
+          },
+          "code": {
+            "type": "string",
+            "maxLength": 8
+          }
+        },
+        "required": [
+          "name",
+          "code"
+        ]
+      },
+      "Value": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "readOnly": true
+          },
+          "rate": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "integer",
+                "readOnly": true
+              },
+              "name": {
+                "type": "string",
+                "description": "Название",
+                "maxLength": 255
+              },
+              "nominal": {
+                "type": "integer",
+                "description": "Номинал"
+              },
+              "code": {
+                "type": "string",
+                "maxLength": 8
+              }
+            },
+            "required": [
+              "name",
+              "code"
+            ]
+          },
+          "num_code": {
+            "type": "integer"
+          },
+          "char_code": {
+            "type": "string",
+            "maxLength": 5
+          },
+          "date": {
+            "type": "string",
+            "format": "date"
+          },
+          "value": {
+            "type": "string",
+            "format": "decimal",
+            "multipleOf": 0.0001,
+            "maximum": 10000,
+            "minimum": -10000
+          }
+        },
+        "required": [
+          "rate",
+          "num_code",
+          "char_code",
+          "date",
+          "value"
+        ]
+      }
+    }
+  }
+}

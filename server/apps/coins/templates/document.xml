@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<w:document xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas"
+            xmlns:cx="http://schemas.microsoft.com/office/drawing/2014/chartex"
+            xmlns:cx1="http://schemas.microsoft.com/office/drawing/2015/9/8/chartex"
+            xmlns:cx2="http://schemas.microsoft.com/office/drawing/2015/10/21/chartex"
+            xmlns:cx3="http://schemas.microsoft.com/office/drawing/2016/5/9/chartex"
+            xmlns:cx4="http://schemas.microsoft.com/office/drawing/2016/5/10/chartex"
+            xmlns:cx5="http://schemas.microsoft.com/office/drawing/2016/5/11/chartex"
+            xmlns:cx6="http://schemas.microsoft.com/office/drawing/2016/5/12/chartex"
+            xmlns:cx7="http://schemas.microsoft.com/office/drawing/2016/5/13/chartex"
+            xmlns:cx8="http://schemas.microsoft.com/office/drawing/2016/5/14/chartex"
+            xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+            xmlns:aink="http://schemas.microsoft.com/office/drawing/2016/ink"
+            xmlns:am3d="http://schemas.microsoft.com/office/drawing/2017/model3d"
+            xmlns:o="urn:schemas-microsoft-com:office:office"
+            xmlns:oel="http://schemas.microsoft.com/office/2019/extlst"
+            xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships"
+            xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:v="urn:schemas-microsoft-com:vml"
+            xmlns:wp14="http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing"
+            xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing"
+            xmlns:w10="urn:schemas-microsoft-com:office:word"
+            xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
+            xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml"
+            xmlns:w15="http://schemas.microsoft.com/office/word/2012/wordml"
+            xmlns:w16cex="http://schemas.microsoft.com/office/word/2018/wordml/cex"
+            xmlns:w16cid="http://schemas.microsoft.com/office/word/2016/wordml/cid"
+            xmlns:w16="http://schemas.microsoft.com/office/word/2018/wordml"
+            xmlns:w16sdtdh="http://schemas.microsoft.com/office/word/2020/wordml/sdtdatahash"
+            xmlns:w16se="http://schemas.microsoft.com/office/word/2015/wordml/symex"
+            xmlns:wpg="http://schemas.microsoft.com/office/word/2010/wordprocessingGroup"
+            xmlns:wpi="http://schemas.microsoft.com/office/word/2010/wordprocessingInk"
+            xmlns:wne="http://schemas.microsoft.com/office/word/2006/wordml"
+            xmlns:wps="http://schemas.microsoft.com/office/word/2010/wordprocessingShape"
+            mc:Ignorable="w14 w15 w16se w16cid w16 w16cex w16sdtdh wp14">
+  <w:body>
+    <w:p w14:paraId="5CAB67E2" w14:textId="1C4D3ABE" w:rsidR="00744E98" w:rsidRPr="0021012A" w:rsidRDefault="0021012A"
+         w:rsidP="0021012A">
+      <w:pPr>
+        <w:jc w:val="center"/>
+        <w:rPr>
+          <w:sz w:val="28"/>
+          <w:szCs w:val="28"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r w:rsidRPr="0021012A">
+        <w:rPr>
+          <w:sz w:val="28"/>
+          <w:szCs w:val="28"/>
+        </w:rPr>
+        <w:t>Выгрузка</w:t>
+      </w:r>
+    </w:p>
+    <w:tbl>
+      <w:tblPr>
+        <w:tblStyle w:val="a3"/>
+        <w:tblW w:w="0" w:type="auto"/>
+        <w:tblLayout w:type="fixed"/>
+        <w:tblLook w:val="04A0" w:firstRow="1" w:lastRow="0" w:firstColumn="1" w:lastColumn="0" w:noHBand="0"
+                   w:noVBand="1"/>
+      </w:tblPr>
+      <w:tblGrid>
+        <w:gridCol w:w="988"/>
+        <w:gridCol w:w="3118"/>
+        <w:gridCol w:w="992"/>
+        <w:gridCol w:w="1276"/>
+        <w:gridCol w:w="1134"/>
+        <w:gridCol w:w="709"/>
+        <w:gridCol w:w="1128"/>
+      </w:tblGrid>
+      <w:tr w:rsidR="0021012A" w14:paraId="0D78F3F0" w14:textId="77777777" w:rsidTr="0021012A">
+        <w:trPr>
+          <w:trHeight w:val="959"/>
+        </w:trPr>
+        {% for header in headers %}
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:type="dxa"/>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p w14:paraId="182DE9FB" w14:textId="68EEB0F0" w:rsidR="0021012A" w:rsidRPr="0021012A"
+               w:rsidRDefault="0021012A" w:rsidP="0021012A">
+            <w:pPr>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+              </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="0021012A">
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri" w:cs="Calibri"/>
+                <w:b/>
+                <w:bCs/>
+                <w:color w:val="000000"/>
+              </w:rPr>
+              <w:t>{{ header }}</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        {% endfor %}
+      </w:tr>
+      {% for row in data %}
+      <w:tr w:rsidR="0021012A" w14:paraId="7CF09C28" w14:textId="77777777" w:rsidTr="0021012A">
+        {% for header in headers %}
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="988" w:type="dxa"/>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p w14:paraId="7432E5F9" w14:textId="16FFF437" w:rsidR="0021012A" w:rsidRDefault="0021012A"
+               w:rsidP="0021012A">
+            <w:pPr>
+              <w:jc w:val="center"/>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri" w:cs="Calibri"/>
+                <w:color w:val="000000"/>
+              </w:rPr>
+              <w:t>{{ row|get_item:header }}</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        {% endfor %}
+      </w:tr>
+      {% endfor %}
+    </w:tbl>
+    <w:p w14:paraId="59D35DF8" w14:textId="77777777" w:rsidR="0021012A" w:rsidRPr="0021012A" w:rsidRDefault="0021012A"/>
+    <w:sectPr w:rsidR="0021012A" w:rsidRPr="0021012A">
+      <w:pgSz w:w="11906" w:h="16838"/>
+      <w:pgMar w:top="1134" w:right="850" w:bottom="1134" w:left="1701" w:header="708" w:footer="708" w:gutter="0"/>
+      <w:cols w:space="708"/>
+      <w:docGrid w:linePitch="360"/>
+    </w:sectPr>
+  </w:body>
+</w:document>

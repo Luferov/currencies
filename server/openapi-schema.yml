@@ -1,0 +1,115 @@
+openapi: 3.0.2
+info:
+  title: ''
+  version: ''
+paths:
+  /coins/rates/:
+    get:
+      operationId: listRates
+      description: ''
+      parameters: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Rate'
+          description: ''
+      tags:
+      - coins
+  /coins/values/:
+    get:
+      operationId: listValues
+      description: ''
+      parameters:
+      - name: date
+        required: false
+        in: query
+        description: date
+        schema:
+          type: string
+      - name: rate__code
+        required: false
+        in: query
+        description: rate__code
+        schema:
+          type: string
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Value'
+          description: ''
+      tags:
+      - coins
+components:
+  schemas:
+    Rate:
+      type: object
+      properties:
+        id:
+          type: integer
+          readOnly: true
+        name:
+          type: string
+          description: "\u041D\u0430\u0437\u0432\u0430\u043D\u0438\u0435"
+          maxLength: 255
+        nominal:
+          type: integer
+          description: "\u041D\u043E\u043C\u0438\u043D\u0430\u043B"
+        code:
+          type: string
+          maxLength: 8
+      required:
+      - name
+      - code
+    Value:
+      type: object
+      properties:
+        id:
+          type: integer
+          readOnly: true
+        rate:
+          type: object
+          properties:
+            id:
+              type: integer
+              readOnly: true
+            name:
+              type: string
+              description: "\u041D\u0430\u0437\u0432\u0430\u043D\u0438\u0435"
+              maxLength: 255
+            nominal:
+              type: integer
+              description: "\u041D\u043E\u043C\u0438\u043D\u0430\u043B"
+            code:
+              type: string
+              maxLength: 8
+          required:
+          - name
+          - code
+        num_code:
+          type: integer
+        char_code:
+          type: string
+          maxLength: 5
+        date:
+          type: string
+          format: date
+        value:
+          type: string
+          format: decimal
+          multipleOf: 0.0001
+          maximum: 100
+          minimum: -100
+      required:
+      - rate
+      - num_code
+      - char_code
+      - date
+      - value

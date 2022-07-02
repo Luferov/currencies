@@ -1,0 +1,12 @@
+.idea
+client/node_modules
+client/*.log*
+client/.nuxt
+client/.nitro
+client/.cache
+client/.output
+client/.env
+client/dist
+server/venv
+
+server/storage/documents

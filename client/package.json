@@ -1,0 +1,28 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "generate-types": "openapi --input ./schema.json --output ./types --exportCore false --exportServices false"
+  },
+  "devDependencies": {
+    "@nuxt/webpack-builder": "^3.0.0-rc.4",
+    "nuxt": "^3.0.0-rc.4",
+    "openapi-typescript-codegen": "^0.23.0",
+    "pug-plain-loader": "^1.1.0"
+  },
+  "dependencies": {
+    "@vueuse/core": "^8.7.5",
+    "mdi": "^2.2.43",
+    "moment": "^2.29.3",
+    "pug": "^3.0.2",
+    "sass": "^1.53.0",
+    "sass-loader": "^13.0.2",
+    "vite-plugin-pug": "^0.3.1",
+    "vue-demi": "^0.13.1",
+    "vue-query": "^1.25.0",
+    "vuetify": "^3.0.0-beta.4"
+  }
+}
