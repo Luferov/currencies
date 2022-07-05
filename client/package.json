@@ -23,6 +23,6 @@
     "vite-plugin-pug": "^0.3.1",
     "vue-demi": "^0.13.1",
     "vue-query": "^1.25.0",
-    "vuetify": "^3.0.0-beta.4"
+    "vuetify": "^3.0.0-beta.5"
   }
 }
