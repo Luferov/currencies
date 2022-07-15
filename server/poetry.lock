@@ -143,7 +143,7 @@ pytz = "*"
 
 [[package]]
 name = "drf-yasg"
-version = "1.20.0"
+version = "1.21.0"
 description = "Automated generation of real Swagger/OpenAPI 2.0 schemas from Django Rest Framework code."
 category = "main"
 optional = false
@@ -152,11 +152,12 @@ python-versions = ">=3.6"
 [package.dependencies]
 coreapi = ">=2.3.3"
 coreschema = ">=0.0.4"
-Django = ">=2.2.16"
+django = ">=2.2.16"
 djangorestframework = ">=3.10.3"
 inflection = ">=0.3.1"
-packaging = "*"
-"ruamel.yaml" = ">=0.15.34"
+packaging = ">=21.0"
+pytz = ">=2021.1"
+"ruamel.yaml" = ">=0.16.13"
 uritemplate = ">=3.0.0"
 
 [package.extras]
@@ -555,7 +556,7 @@ socks = ["PySocks (>=1.5.6,!=1.5.7,<2.0)"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10"
-content-hash = "e1aa66e587b5485974164f3ca181f66d681c7dea4313c1d7f21dfba4a701e01b"
+content-hash = "0c097bc892b09ef2b670284c29959cbbfef9bcb209aab119e67d2cf2a8fa4a77"
 
 [metadata.files]
 asgiref = [
@@ -607,8 +608,8 @@ djangorestframework = [
     {file = "djangorestframework-3.13.1.tar.gz", hash = "sha256:0c33407ce23acc68eca2a6e46424b008c9c02eceb8cf18581921d0092bc1f2ee"},
 ]
 drf-yasg = [
-    {file = "drf-yasg-1.20.0.tar.gz", hash = "sha256:d50f197c7f02545d0b736df88c6d5cf874f8fea2507ad85ad7de6ae5bf2d9e5a"},
-    {file = "drf_yasg-1.20.0-py2.py3-none-any.whl", hash = "sha256:8b72e5b1875931a8d11af407be3a9a5ba8776541492947a0df5bafda6b7f8267"},
+    {file = "drf-yasg-1.21.0.tar.gz", hash = "sha256:2f2877a65ba4127d7eeedfa9a77a096db2e3743bd121d745002997b417c0d86a"},
+    {file = "drf_yasg-1.21.0-py2.py3-none-any.whl", hash = "sha256:b90ec04c4e395dfdfab02a8b9eea2c1bdcdd694c5b1eb6eba641b772ad0f4a56"},
 ]
 eradicate = [
     {file = "eradicate-2.1.0-py3-none-any.whl", hash = "sha256:8bfaca181db9227dc88bdbce4d051a9627604c2243e7d85324f6d6ce0fd08bb2"},
