@@ -22,7 +22,7 @@
     "sass-loader": "^13.0.2",
     "vite-plugin-pug": "^0.3.1",
     "vue-demi": "^0.13.1",
-    "vue-query": "^1.25.0",
+    "vue-query": "^1.25.2",
     "vuetify": "^3.0.0-beta.5"
   }
 }
