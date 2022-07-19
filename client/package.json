@@ -16,7 +16,7 @@
   "dependencies": {
     "@vueuse/core": "^8.7.5",
     "mdi": "^2.2.43",
-    "moment": "^2.29.3",
+    "moment": "^2.29.4",
     "pug": "^3.0.2",
     "sass": "^1.53.0",
     "sass-loader": "^13.0.2",
