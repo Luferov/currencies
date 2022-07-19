@@ -5720,10 +5720,10 @@ vue-loader@^17.0.0:
     hash-sum "^2.0.0"
     loader-utils "^2.0.0"
 
-vue-query@^1.25.0:
-  version "1.25.0"
-  resolved "https://registry.yarnpkg.com/vue-query/-/vue-query-1.25.0.tgz#2ff03ede433388c98fa8a5bbe09a6395370a9f94"
-  integrity sha512-CDGPHtcZBoK/jOKKxazExHsfw0L7MEZiqh/4xiq5yxbfxb55M6CEH82Fw7p2VMhl4rCWFKj67oX5GSF9YUzi1g==
+vue-query@^1.25.2:
+  version "1.25.2"
+  resolved "https://registry.yarnpkg.com/vue-query/-/vue-query-1.25.2.tgz#5ffb4d3bd3e43eaf6059313f5f6c0d4747166c39"
+  integrity sha512-cWmjxFSa6/4QOqcGmhULqk99arKFWTBKo13BZNVvf9AkNWPV1zb2vdOi2ltd9itZP01QUgoc8rGoVOaj60P+DA==
   dependencies:
     "@vue/devtools-api" "^6.1.4"
     match-sorter "^6.3.1"
