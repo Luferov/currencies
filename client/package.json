@@ -9,7 +9,7 @@
   },
   "devDependencies": {
     "@nuxt/webpack-builder": "^3.0.0-rc.4",
-    "nuxt": "^3.0.0-rc.4",
+    "nuxt": "^3.0.0-rc.6",
     "openapi-typescript-codegen": "^0.23.0",
     "pug-plain-loader": "^1.1.0"
   },
